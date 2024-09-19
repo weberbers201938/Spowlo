@@ -235,4 +235,4 @@ def download():
         return send_file("download.zip", as_attachment=True)
 
 if __name__ == '__main__':
-    app.run(host='127.0.0.1', port=81) # Set host='0.0.0.0' For access on another machine (replit or LAN)
+    app.run(host='0.0.0.0', port=5000) # Set host='0.0.0.0' For access on another machine (replit or LAN)
